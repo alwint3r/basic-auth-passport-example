@@ -1,0 +1,17 @@
+{
+  "name": "passport-basic-auth-no-session",
+  "version": "1.0.0",
+  "description": "Passport basic auth without session",
+  "private": true,
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app"
+  },
+  "author": "Alwin Arrasyid <alwin.ridd@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.3",
+    "passport": "^0.3.2",
+    "passport-http": "^0.3.0"
+  }
+}
