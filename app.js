@@ -12,7 +12,7 @@ app.disable('x-powered-by');
 app.use(passport.initialize());
 
 app.get('/', passport.authenticate('basic', {session: false}), (req, res, next) => {
-    res.json({
+    return res.json({
         message: 'Hello ' + req.user.username + '!',
         authenticated: req.isAuthenticated(),
         status: 200
