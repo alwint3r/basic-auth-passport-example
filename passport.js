@@ -3,6 +3,8 @@
 const passport = require('passport');
 const BasicStrategy = require('passport-http').BasicStrategy;
 
+// You should never hardcode your credentials like this.
+// This is just for example purpose.
 const hardcodedCreds = {
     user: 'winter',
     pass: 'winter',
